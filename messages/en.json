@@ -1,0 +1,202 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "LoginPage": {
+    "login": "Login",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Sign in",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "loginFailed": "Login failed. Please check your email and password."
+  },
+  "RegisterPage": {
+  "register": "Register",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email",
+  "password": "Password",
+  "submit": "Sign up",
+  "haveAccount": "Already have an account?",
+  "login": "Login",
+  "registerFailed": "Registration failed. Please try again."
+},
+"SidebarAdmin": {
+  "adminPanel": "Admin Panel",
+  "dashboard": "Dashboard",
+  "users": "Users",
+  "tasks": "Tasks",
+  "projects": "Projects"
+},
+  "AdminDashboard": {
+    "allUsers": "👤 All Users",
+    "newUser": "+ New User"
+  },
+  "UserCard": {
+    "confirmDelete": "Are you sure you want to delete this user?",
+    "deleteSuccess": "✅ User deleted successfully",
+    "deleteError": "❌ An error occurred while deleting",
+    "role": "Role:",
+    "createdAt": "Created at:",
+    "edit": "Edit",
+    "delete": "Delete"
+},
+  "NewUserPage": {
+    "title": "Create New User",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "selectRole": "Select Role",
+    "admin": "Admin",
+    "member": "Member",
+    "guest": "Guest",
+    "createUser": "Create User",
+    "createSuccess": "✅ User created successfully",
+    "createError": "❌ Error occurred while creating user",
+    "authFail": "Failed to verify user, please login",
+    "loading": "Checking permissions..."
+  },
+  "EditUserPage": {
+    "title": "Edit User",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password (leave empty to keep current)",
+    "selectRole": "Select Role",
+    "admin": "Admin",
+    "member": "Member",
+    "guest": "Guest",
+    "updateUser": "Update User",
+    "updateSuccess": "✅ User updated successfully",
+    "updateError": "❌ Error occurred while updating",
+    "fetchError": "Failed to fetch user data"
+  },
+    "AdminProjectsPage": {
+    "allProjects": "All Projects",
+    "newProject": "New Project",
+    "loading": "Loading...",
+    "fetchUserError": "Failed to verify user.",
+    "fetchProjectsError": "Failed to fetch projects."
+  },
+    "ProjectCard": {
+    "deleteConfirm": "Are you sure you want to delete this project?",
+    "deleteSuccess": "✅ Project deleted successfully",
+    "deleteError": "❌ Error deleting project",
+    "noDescription": "No description provided.",
+    "dueDate": "Due Date",
+    "notSet": "Not set",
+    "created": "Created",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "CreateProjectPage": {
+    "createProject": "Create New Project",
+    "projectName": "Project Name",
+    "description": "Description",
+    "dueDate": "Due Date",
+    "members": "Members",
+    "saveProject": "Save Project",
+    "error": "An error occurred while creating the project"
+  },
+  "EditProjectPage": {
+    "editProject": "Edit Project",
+    "projectName": "Project Name",
+    "description": "Description",
+    "dueDate": "Due Date",
+    "owner": "Owner",
+    "chooseOwner": "Select owner",
+    "members": "Members",
+    "updateProject": "Update Project",
+    "saving": "Saving...",
+    "loading": "Loading data...",
+    "loadProjectError": "Error loading project data",
+    "loadUsersError": "Error loading users data",
+    "updateSuccess": "Project updated successfully ✔️",
+    "updateError": "Error updating project ❌"
+  },
+    "AdminTasksPage": {
+    "title": "📋 Tasks",
+    "addNewTask": "+ New Task",
+    "loading": "Loading...",
+    "errorFetchUser": "Failed to verify user.",
+    "errorFetchTasks": "Failed to fetch tasks.",
+    "noTasks": "No tasks available"
+  },
+    "TaskCard": {
+    "confirmDelete": "Are you sure you want to delete this task?",
+    "errorDelete": "❌ Error occurred while deleting",
+    "noDescription": "No description",
+    "dueDate": "Due Date",
+    "noDueDate": "None",
+    "createdAt": "Created At",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting..."
+  },
+  "NewTaskPage": {
+    "title": "New Task",
+    "placeholderTitle": "Task Title",
+    "placeholderDescription": "Task Description",
+    "selectProject": "Select Project",
+    "loadingProjects": "Loading projects...",
+    "loadingMembers": "Loading members...",
+    "taskStatus": "Task Status",
+    "taskPriority": "Task Priority",
+    "saveTask": "Save Task",
+    "error": "Error",
+    "success": "Success",
+    "errorFetchProjects": "Failed to fetch projects",
+    "errorFetchMembers": "Failed to fetch project members",
+    "successCreateTask": "Task created successfully!",
+    "errorCreateTask": "An error occurred while creating the task"
+  },
+   "EditTaskPage": {
+    "title": "Edit Task",
+    "placeholderTitle": "Task Title",
+    "placeholderDescription": "Task Description",
+    "selectProject": "Select Project",
+    "taskStatus": "Task Status",
+    "taskPriority": "Task Priority",
+    "saveTask": "Update Task",
+    "loadingTask": "⏳ Loading task data...",
+    "success": "Success",
+    "error": "Error",
+    "successUpdateTask": "✔️ Task updated successfully",
+    "errorUpdateTask": "❌ An error occurred while updating the task",
+    "errorFetchTask": "❌ Failed to load task data"
+  },
+  "DashboardPage": {
+    "myProjects": "My Projects",
+    "noProjects": "No projects currently 🚀",
+    "noDescription": "No description",
+    "dueDate": "Due Date",
+    "owner": "Owner",
+    "members": "Members",
+    "notSet": "Not set",
+    "noMembers": "No members",
+    "error": "Error",
+    "errorFetchUser": "Failed to verify user."
+  },
+  "MemberDashboardPage": {
+    "header": "📋 Member Dashboard",
+    "subHeader": "Welcome, here you can see all your projects and current tasks",
+    "myProjects": "My Projects",
+    "noProjects": "🚀 No projects currently",
+    "noDescription": "No description",
+    "dueDate": "Due Date",
+    "owner": "Owner",
+    "members": "Members",
+    "notSet": "Not set",
+    "myTasks": "My Tasks",
+    "noTasks": "📌 No tasks currently",
+    "status": "Status",
+    "statusUpdated": "Task status updated successfully ✅",
+    "statusUpdateError": "Error updating task status ❌",
+    "errorFetchUser": "Failed to verify user.",
+    "errorFetchData": "Failed to load data",
+    "loading": "⏳ Loading..."
+  }
+}

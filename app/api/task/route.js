@@ -26,7 +26,7 @@ export async function GET(req) {
     return NextResponse.json({ message: 'Unauthorized' }, { status: 401 });
   }
   try {
-    const tasks = await Task.find().populate('project assignedTo', '-password');
+    const tasks = await Task.find().populate('project assignedTo');
     return NextResponse.json({ tasks }, { status: 200 });
   } catch (error) {
     console.error('GET error:', error);
